@@ -18,7 +18,7 @@
   "homepage": "https://github.com/valdirviana/express4-jade-handlebars#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "consolidate": "^0.14.1",
-    "swig": "^1.4.2"
+    "pug": "^2.0.0-beta6",
+    "consolidate" : "^0.14.1"
   }
 }

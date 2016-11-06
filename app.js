@@ -1,30 +1,11 @@
-var express = require('express'),
-  cons = require('consolidate'),
-  app = express()
+let express = require('express')
+let app = express()
 
-app.engine('html', cons.swig)
-
-
-app.set('view engine', 'html')
+app.set('view engine', 'pug')
 app.set('views', __dirname + '/views')
 
-var platforms = [
-  { name: 'node' },
-  { name: 'ruby' },
-  { name: 'python' }
-]
-
-app.get('/', function(req, res){
-  res.render('index', {
-    title: 'Consolidate This'
-  })
-})
-
-app.get('/platforms', function(req, res){
-  res.render('platforms', {
-    title: 'Platforms',
-    platforms: platforms
-  })
+app.get('/', function (req, res) {
+  res.render('index', { title: 'Hey', message: 'Hello thered!' })
 })
 
 app.listen(3000)
