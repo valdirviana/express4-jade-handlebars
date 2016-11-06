@@ -1,0 +1,24 @@
+{
+  "name": "express4-jade-handlebars",
+  "version": "0.0.1",
+  "description": "Estudos usando Express4 com Jade e Handlebars",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdirviana/express4-jade-handlebars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valdirviana/express4-jade-handlebars/issues"
+  },
+  "homepage": "https://github.com/valdirviana/express4-jade-handlebars#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "consolidate": "^0.14.1",
+    "swig": "^1.4.2"
+  }
+}
